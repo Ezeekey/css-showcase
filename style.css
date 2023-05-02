@@ -16,3 +16,11 @@ div {
 header {
     background-color: white;
 }
+
+#sidesDemonstration {
+    border-style: solid double dotted dashed;
+}
+
+#thiccDemonstration {
+    border-width: 10px;
+}
