@@ -8,7 +8,7 @@ let borderIndex = 0;
 function flashBorders () {
     document.getElementById("flashingBorderDiv").style.borderStyle = borders[borderIndex];
 
-    borderIndex < borders.length ? borderIndex++ : borderIndex = 0;
+    borderIndex < borders.length - 1 ? borderIndex++ : borderIndex = 0;
 }
 
 
